@@ -14,7 +14,7 @@ specifiers:
   husky: 8.0.0
   lint-staged: 13.1.0
   prettier: ^2.8.1
-  reflect-metadata: ^0.1.13
+  reflect-metadata: ^0.2.2
   rimraf: ^3.0.2
   rxjs: ^7.6.0
   ts-node: ^10.9.1
@@ -22,12 +22,12 @@ specifiers:
   typescript: ^4.9.4
 
 dependencies:
-  reflect-metadata: 0.1.13
+  reflect-metadata: 0.2.2
 
 devDependencies:
   '@cucumber/cucumber': 8.9.0
-  '@nestjs/common': 9.2.1_whg6pvy6vwu66ypq7idiq2suxq
-  '@nestjs/core': 9.2.1_wqmgrsh4vfci5e6jx45m6crmsi
+  '@nestjs/common': 9.2.1_mp2yjjnayfgm7kuvhhg3ju4mty
+  '@nestjs/core': 9.2.1_tl7xn2myvguwk4svzcup7a55ui
   '@types/node': 18.11.15
   '@typescript-eslint/eslint-plugin': 5.46.1_imrg37k3svwu377c6q7gkarwmi
   '@typescript-eslint/parser': 5.46.1_ha6vam6werchizxrnqvarmz2zu
@@ -246,7 +246,7 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@nestjs/common/9.2.1_whg6pvy6vwu66ypq7idiq2suxq:
+  /@nestjs/common/9.2.1_mp2yjjnayfgm7kuvhhg3ju4mty:
     resolution: {integrity: sha512-nZuo3oDsSSlC5mti/M2aCWTEIfHPGDXmBwWgPeCpRbrNz3IWd109rkajll+yxgidVjznAdBS9y00JkAVJblNYw==}
     peerDependencies:
       cache-manager: <=5
@@ -263,13 +263,13 @@ packages:
         optional: true
     dependencies:
       iterare: 1.2.1
-      reflect-metadata: 0.1.13
+      reflect-metadata: 0.2.2
       rxjs: 7.6.0
       tslib: 2.4.1
       uuid: 9.0.0
     dev: true
 
-  /@nestjs/core/9.2.1_wqmgrsh4vfci5e6jx45m6crmsi:
+  /@nestjs/core/9.2.1_tl7xn2myvguwk4svzcup7a55ui:
     resolution: {integrity: sha512-a9GkXuu8uXgNgCVW+17iI8kLCltO+HwHpU2IhR+32JKnN2WEQ1YEWU4t3GJ2MNq44YkjIw9zrKvFkjJBlYrNbQ==}
     requiresBuild: true
     peerDependencies:
@@ -287,13 +287,13 @@ packages:
       '@nestjs/websockets':
         optional: true
     dependencies:
-      '@nestjs/common': 9.2.1_whg6pvy6vwu66ypq7idiq2suxq
+      '@nestjs/common': 9.2.1_mp2yjjnayfgm7kuvhhg3ju4mty
       '@nuxtjs/opencollective': 0.3.2
       fast-safe-stringify: 2.1.1
       iterare: 1.2.1
       object-hash: 3.0.0
       path-to-regexp: 3.2.0
-      reflect-metadata: 0.1.13
+      reflect-metadata: 0.2.2
       rxjs: 7.6.0
       tslib: 2.4.1
       uuid: 9.0.0
@@ -1744,6 +1744,10 @@ packages:
 
   /reflect-metadata/0.1.13:
     resolution: {integrity: sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==}
+    dev: true
+
+  /reflect-metadata/0.2.2:
+    resolution: {integrity: sha512-urBwgfrvVP/eAyXx4hluJivBKzuEbSQs9rKWCrCkbSxNv8mxPcUZKeuoF3Uy4mJl3Lwprp6yy5/39VWigZ4K6Q==}
 
   /regenerator-runtime/0.13.11:
     resolution: {integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==}
